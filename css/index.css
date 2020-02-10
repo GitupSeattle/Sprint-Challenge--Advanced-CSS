@@ -260,6 +260,7 @@ footer {
   text-align: center;
   font-size: 20px;
   width: 40%;
+  width: 100%;
 }
 .home .walk .walk-text .btn:hover {
   background-color: #f2f2f2;
