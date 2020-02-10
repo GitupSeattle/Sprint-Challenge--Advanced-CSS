@@ -1,6 +1,7 @@
 // Home Content
 
 .home {
+  
 
   .intro {
 
@@ -11,7 +12,12 @@
     p {
       padding:0 15px;
     }
-  
+   img{
+    @media @phone {
+    width: 99%;
+    margin: 0 auto;
+    }
+   }
   }
 
   .space-images {
@@ -60,11 +66,11 @@
       //mobile below
       @media @phone {
         display: flex;
-        justify-content: center;
         flex-direction: column-reverse;
         align-items: center;
         //Had to get rid of padding to make picture full size
-        padding: 0px 0px;
+        padding: 0px;
+        
         
       }
       //mobile above
@@ -87,7 +93,7 @@
         //Added  button with 2 parameters
         .btn(0px, #22283A,);
           //mobile below
-          width: 100%;
+          .fullwidth(100%);
           //mobile above
       }
     }
@@ -104,7 +110,7 @@
       img {
         .fullwidth(100%);
         height: auto;
-        border-radius: 10px;
+        // border-radius: 10px;
       }
     }
   }
