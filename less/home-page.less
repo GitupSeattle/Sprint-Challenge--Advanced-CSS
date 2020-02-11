@@ -69,17 +69,19 @@
         flex-direction: column-reverse;
         align-items: center;
         //Had to get rid of padding to make picture full size
-        padding: 0px;
-        
-        
-      }
+        // 0px added a scroll bar.
+        padding: 10px;
+      
+        }
       //mobile above
 
     .walk-text {
       width: 50%;
         //mobile below
+        @media @phone {
         width: 100%;
         //mobile above
+        }
 
       h3 {
         margin-bottom: 10px;
