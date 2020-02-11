@@ -1,4 +1,4 @@
-# Sprint Challenge: Advanced CSS - Space Walkers Web Page
+ # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
 
@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Addaptive has static units (px) and media queries, fully responsive is realtive units (rems, etc...) and media queries.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is built to look good on phones, desktop first is built to look good on pc's/laptops.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It puts the font at 10 points so it makes muliplying and other math much easiser.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a progam that generates CSS from  a unique sytax. There are multiple preprocessors out there like LeSS, Sass, Stylus, etc...
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like that you type less code but nesting has been giving me some trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
